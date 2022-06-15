@@ -16,7 +16,14 @@ public class Lect01 {
         System.out.println("He said: \\Hello there\""); // An inline comment
         System.out.print("Hello");
         
+        
+        int x = 0;
+        double d = 3.4;
+        char c = 'c';
+        boolean b = true;
+        String s= "hello";
 
     }
+
 }
 
