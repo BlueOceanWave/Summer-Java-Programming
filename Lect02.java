@@ -8,7 +8,7 @@ public class Lect02 {
                 Data_type identifier = value;
 
             Identifiers:
-                Valid characters: a-z, A-Z, 0-9, _
+                Valid characters: a-z A-Z 0-9 _ $ 
                 Can't start with a number (1person)
                 Can't be a resered word (int, class, public, etc)
             
@@ -42,7 +42,7 @@ public class Lect02 {
         int a, b=5, c;
 
 
-        double radius;  //Variable decleration
+        double radius;  //Variable declaration
         radius = 5;     //Variable initialization
 
 
