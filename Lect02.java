@@ -77,6 +77,48 @@ public class Lect02 {
         System.out.println("10 (int) / 5 (double) = " + (num2 / decimal2));
         System.out.println("5 (double) / 10 (int) = " + (decimal2 / num2));
         System.out.println("5 (double) / 3.2 (double) = " + (decimal2 / decimal1));
+        
+        
+
+        //Updating variables
+        int example = 5;
+
+        //Adding 1 shorthands
+        example = example + 1;
+        example += 1;
+        example++;
+
+        //Subtracting 1 shorthands
+        example = example - 1;
+        example -= 1;
+        example--;
+
+        //Multiplying shorthands
+        example = example * 2;
+        example *= 2;
+ 
+        //Division shorthands
+        example = example / 2;
+        example /= 2;
+        
+        //Modulous shorthands
+        example = example % 5;
+        example %= 5;
+
+        
+        // Getting the first digit of a number
+        example = 587;
+        example = example % 10; //Now stores the number 7
+
+
+        // Casting (Convering from one data type to another)
+        example = (int) 3.5;    //Downcasting (loses information)
+        double example2 = (double) (5 + 6);   //Upcasting (no losing information)
+
+
+        char letter = 'a';
+        System.out.println("a is: " + ( (int) letter ));
+        System.out.println("97 is: " + ( (char) 97 ));
 
 
 
