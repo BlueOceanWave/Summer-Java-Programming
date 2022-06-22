@@ -24,6 +24,10 @@ public class Lect02 {
         boolean lightIsRed = false;
         char _letter = 'h';
 
+        //Objects 
+        String text = "Hello World" + age;
+        text = "another thing";
+
         //Printing out variable
         System.out.println("Hello world, " + age + " is a nice number");
 
@@ -116,6 +120,7 @@ public class Lect02 {
         double example2 = (double) (5 + 6);   //Upcasting (no losing information)
 
 
+        //Characters are represented by ASCII
         char letter = 'a';
         System.out.println("a is: " + ( (int) letter ));
         System.out.println("97 is: " + ( (char) 97 ));
