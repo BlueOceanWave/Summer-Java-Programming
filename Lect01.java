@@ -7,8 +7,10 @@ public class Lect01 {
         // This is a third comment
 
         /*
+        
         This is a multiline comment
         We can have multiple comments
+
         */
         
         System.out.println("He said: \\Hello there\""); // An inline comment
