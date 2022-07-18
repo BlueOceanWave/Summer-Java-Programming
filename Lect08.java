@@ -56,13 +56,18 @@ public class Lect08 {
                         };
                     
         int[][] grid2 = new int[4][3];
-
+        
+        int[][][][][][] grid3;
 
 
 
 
         //ArrayLists
         ArrayList<String> titles = new ArrayList<String>();
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+
+        
+        numbers.add(0);
         titles.add("Harry Potter");
         System.out.println(titles.get(0));
 
